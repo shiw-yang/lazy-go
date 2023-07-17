@@ -1,4 +1,8 @@
 # 💤 LazyVim
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+It's my config for golang IDE
+
+# TODO
+
+1. gh hover code
+2. keymap in golang debug
