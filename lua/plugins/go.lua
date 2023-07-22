@@ -21,7 +21,13 @@ return {
     }),
   },
   keys = {
-    { "<leader>cx", "<cmd>GoModTidy<cr>", desc = "Go mod tidy" },
-    { "<F5>", "<cmd>GoDebug", desc = "Go debug" },
+
+    {
+      "<leader>cgh",
+      function()
+        require("go.godoc").run()
+      end,
+      desc = "Go Doc",
+    },
   },
 }

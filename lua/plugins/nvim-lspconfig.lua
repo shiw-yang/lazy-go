@@ -3,6 +3,8 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       server = {
+        flask8 = {},
+        ruff_lsp = {},
         gopls = {
           settings = {
             gopls = {
